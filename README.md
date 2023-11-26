@@ -28,8 +28,8 @@ For the development environment you will need:
 * Update all your details in the Visual Code `settings.json` file to allow Visual Code to debug PHP and run it. You will need to
 set up your PHP paths etc. Currently, for PHP development I have a WAMP setup, but this may vary for your development environment and you can adjust as needed
 * Depending on your PHP setup for development, it may be possible you will get cURL certificate issues when running and you will need to set SSL up.
-- You can set up the SSL for cURL and php.ini;
-- Disable SSL verification (NOT FOR PRODUCTION USE) by updating the constant `DISABLE_SSL` to `true` in the `src/constants/Helper.php` file
+1. You can set up the SSL for cURL and php.ini;
+2. Disable SSL verification (NOT FOR PRODUCTION USE) by updating the constant `DISABLE_SSL` to `true` in the `src/constants/Helper.php` file
 * Install the plugins into Visual Studio Code". See image below for details:
 <img src="https://storage.snapwonders.com/cache/1/bNPvv9glHPPWHRfntKypq6jyTvjr2CCT.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=b9ce8871c48f81613a98707c67ada90a" alt="PHP plugin 1" />
 <img src="https://storage.snapwonders.com/cache/1/32Ttkke8vN5Je53Mjr7nJ_jjwfjm60k8.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=5dd1efd31bb4bba99dd54a30b0186750" alt="PHP plugin 2" />
