@@ -27,12 +27,13 @@ For the development environment you will need:
 * Install all the vendor packages via `php.exe composer.phar install`
 * Update all your details in the Visual Code `settings.json` file to allow Visual Code to debug PHP and run it. You will need to
 set up your PHP paths etc. Currently, for PHP development I have a WAMP setup, but this may vary for your development environment and you can adjust as needed
-* Depending on your PHP setup for development, it may be possible you will get cURL certificate issues when running and you will need to set SSL up.
+* Depending on your PHP setup for development, it may be possible you will get cURL certificate issues when running and you will need to set SSL up:
 1. You can set up the SSL for cURL and php.ini;
 2. Disable SSL verification (NOT FOR PRODUCTION USE) by updating the constant `DISABLE_SSL` to `true` in the `src/constants/Helper.php` file
 * Install the plugins into Visual Studio Code". See image below for details:
-<img src="https://storage.snapwonders.com/cache/1/bNPvv9glHPPWHRfntKypq6jyTvjr2CCT.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=b9ce8871c48f81613a98707c67ada90a" alt="PHP plugin 1" />
-<img src="https://storage.snapwonders.com/cache/1/32Ttkke8vN5Je53Mjr7nJ_jjwfjm60k8.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=5dd1efd31bb4bba99dd54a30b0186750" alt="PHP plugin 2" />
+<img src="https://storage.snapwonders.com/cache/1/oO0hdjIRtHGUglJdEGZ32T38AbtRMaO4.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=a4c6178b107cfd9e7fd43113a8e675d7" alt="PHP plugin 1" />
+<img src="https://storage.snapwonders.com/cache/1/zS5ugUUshpT3gvqSKgbrOSKgoPY7LcZ5.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=7dfc5f9a9cab2bbd0ab12ffbcdeaede8" alt="PHP plugin 2" />
+<img src="https://storage.snapwonders.com/cache/1/3ZvayrOslOtgl3Zy8h9Fe734C_o1PE_P.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=349ba617c8c2fa522169d156e25b79f0" alt="PHP plugin 3" />
 
 ## snapWONDERS API Key
 You will need the snapWONDERS API Key before you can get started:
@@ -43,7 +44,7 @@ You will need the snapWONDERS API Key before you can get started:
 
 # Running the PHP example
 Once everything above is setup you should be able to simply open the workspace folder with Visual Studio Code and run or debug it. Simply hit the default hot keys `F5` to start debugging or to run directly use `Ctrl+F5`.
-<img src="https://storage.snapwonders.com/cache/1/alxm7FXQN4fs0CQVckoii2Zw_gYUICZy.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=7b3997df610e0c0a55bba7268b8d9e53" alt="Visual Code IDE" />
+<img src="https://storage.snapwonders.com/cache/1/n37XqQA4CsJmh-fnE0LlQlB0QOnxWYqd.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=3badf97c1e460f1b23139842b6984909" alt="Visual Code IDE" />
 
 If you wish, you can change and provide your own digital media to upload (images and/or videos) and change the `MEDIA_PATH_FILENAME` constant contained in the `src/constants/Helper.php` file. Otherwise the sample image provided is just a photo of me that I use on my social media accounts.
 
