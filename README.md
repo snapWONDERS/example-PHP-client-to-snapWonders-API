@@ -22,13 +22,13 @@ Through the example source, you will be able to:
 ## Development environment
 For the development environment you will need:
 * Install Visual Studio Code. You can download and install from [visual code studio](https://code.visualstudio.com/download)
-* Composer if you don't have it installed. To install and to set up you can follow these instructions from [Install Composer]https://getcomposer.org/download/)
+* Composer if you don't have it installed. To install and to set up you can follow these instructions from [Install Composer](https://getcomposer.org/download/)
 * Ensure that PHP is up and running in your development environment and in the path
 * Install all the vendor packages via `php.exe composer.phar install`
 * Update all your details in the Visual Code `settings.json` file to allow Visual Code to debug PHP and run it. You will need to
 set up your PHP paths etc. Currently, for PHP development I have a WAMP setup, but this may vary for your development environment and you can adjust as needed
 * Depending on your PHP setup for development, it may be possible you will get cURL certificate issues when running and you will need to set SSL up:
-1. You can set up the SSL for cURL and php.ini;
+1. You can set up the SSL for cURL and update your php.ini as needed;
 2. Disable SSL verification (NOT FOR PRODUCTION USE) by updating the constant `DISABLE_SSL` to `true` in the `src/constants/Helper.php` file
 * Install the plugins into Visual Studio Code". See image below for details:
 <img src="https://storage.snapwonders.com/cache/1/oO0hdjIRtHGUglJdEGZ32T38AbtRMaO4.png?mark=snap-wonders-logo.png&markpos=bottom&marky=30&markalpha=30&s=a4c6178b107cfd9e7fd43113a8e675d7" alt="PHP plugin 1" />
